@@ -1,0 +1,37 @@
+---pip and kivy---
+#use this to update pip
+python.exe -m pip install --upgrade pip
+
+#kivy_env is the name of the project folder
+python -m virtualenv kivy_env 
+
+#this activate the virtual environment
+kivy_env\Scripts\activate
+
+#this install kivy
+python -m pip install kivy
+
+#this is used to check is kivy is installed
+pip list
+
+---git---
+#Start git
+git init
+
+#add files to git
+git add .
+
+#commit all changes
+git commit -m "message"
+
+#set the remote url to github or whatever
+git remote add origin URL
+
+#send the files to remote
+git push -u origin master
+
+#to know how many branches are in git
+git branch
+
+#to know git status
+git status
